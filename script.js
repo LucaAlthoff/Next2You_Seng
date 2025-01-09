@@ -18,7 +18,7 @@ const offers = [
     description: "Ich biete an, für jemanden aus der Nachbarschaft einkaufen zu gehen.",
     location: [47.4818, 8.2077],
     rating: 4.5,
-    image: "https://via.placeholder.com/100x100?text=Maria"
+    image: "https://i.imgur.com/ZGtX4Zz.png"
   },
   {
     name: "Max",
@@ -26,7 +26,7 @@ const offers = [
     description: "Biete Nachhilfe für Schüler in Mathematik, speziell für Gymnasium oder Sekundarstufe.",
     location: [47.4878, 8.2161],
     rating: 4.8,
-    image: "https://via.placeholder.com/100x100?text=Max"
+    image: "https://i.imgur.com/brPkgzI.png"
   },
   {
     name: "Sarah",
