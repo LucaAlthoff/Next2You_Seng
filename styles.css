@@ -73,7 +73,7 @@ button:hover {
 }
 @media (max-width: 768px) {
   #searchQuery {
-    width: 100%;
+    width: auto;
     margin-bottom: 0.5rem;
   }
   button {
