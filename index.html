@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Engineering 2025</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+<header class="custom-header">
+  <img id="logo" src="https://i.imgur.com/zQ93jjJ.png" alt="Logo" class="logo">
+</header>
+<div id="qrCodeContainer" class="qr-code-container">
+  <h2 class="qr-code-title">QR-Code zu dieser Seite</h2>
+  <div id="qrCode" class="qr-code-box"></div>
+</div>
+<div class="container offer-form-container" id="create-offer">
+  <h2 class="section-title">Angebot erstellen</h2>
+  <form id="offerForm">
+    <input type="text" id="offerName" placeholder="Ihr Name" required>
+    <input type="text" id="offerTitle" placeholder="Titel des Angebots (z. B. Hilfe beim Einkaufen)" required>
+    <textarea id="offerDescription" placeholder="Beschreiben Sie Ihr Angebot..." required></textarea>
+    <button type="submit" class="btn-primary">Angebot erstellen</button>
+  </form>
+</div>
+<div class="container available-offers-container" id="available-offers">
+  <h2 class="section-title">Verfügbare Angebote in Ihrer Nähe</h2>
+  <ul class="offer-list" id="offerList"></ul>
+</div>
+<div class="container help-offer-container" id="help-offers">
+  <h2 class="section-title">Leute, die Hilfe brauchen</h2>
+  <ul class="help-list" id="helpOfferList"></ul>
+</div>
+<div class="container search-container" id="search">
+  <h2 class="section-title">Angebote suchen</h2>
+  <div class="search-box">
+    <input type="text" id="searchQuery" placeholder="Wonach suchen Sie? (z. B. Pflanzen giessen)">
+    <button onclick="searchOffers()" class="btn-primary">Suchen</button>
+  </div>
+  <ul class="offer-list" id="searchResults"></ul>
+</div>
+<div class="container map-container" id="map-container">
+  <h2 class="section-title">Karte</h2>
+  <div id="map"></div>
+</div>
+<div id="chatContainer" class="chat-container"></div>
+<footer class="custom-footer">
+  Semesterarbeit Service Engineering 2025 - Dario Schneider, Simon Buchser, Enis Tömen und Luca Althoff
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
