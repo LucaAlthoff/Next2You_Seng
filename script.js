@@ -34,7 +34,7 @@ const offers = [
     description: "Hilfe bei der Gartenarbeit: Unkraut jäten, Pflanzen giessen und mehr.",
     location: [47.4739, 8.1925],
     rating: 4.2,
-    image: "https://via.placeholder.com/100x100?text=Sarah"
+    image: "https://i.imgur.com/sgq1R5n.png"
   },
   {
     name: "Lukas",
@@ -42,7 +42,7 @@ const offers = [
     description: "Ich biete Programmierkurse für Anfänger an.",
     location: [47.4850, 8.2090],
     rating: 4.9,
-    image: "https://via.placeholder.com/100x100?text=Lukas"
+    image: "https://i.imgur.com/QVpYhv2.png"
   },
   {
     name: "Anna",
@@ -50,7 +50,7 @@ const offers = [
     description: "Betreuung für Kinder nachmittags in der Nähe.",
     location: [47.4800, 8.2000],
     rating: 4.7,
-    image: "https://via.placeholder.com/100x100?text=Anna"
+    image: "https://i.imgur.com/pQOrMVw.png"
   },
   {
     name: "Tom",
@@ -58,7 +58,7 @@ const offers = [
     description: "Ich gehe mit deinem Hund spazieren, wenn du beschäftigt bist.",
     location: [47.4780, 8.2150],
     rating: 4.3,
-    image: "https://via.placeholder.com/100x100?text=Tom"
+    image: "https://i.imgur.com/1P7cwDg.png"
   }
 ];
 const helpRequests = [
